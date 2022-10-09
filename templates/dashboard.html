@@ -9,23 +9,27 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="index.html">Brazil Weather APP</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="map.html">Station Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dashboard.html">Dashboard</a>
+        </li>    
+      </ul>
+    </div>  
+  </nav>
 </head>
 
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.html">Home Page</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <a class="nav-link" href="map.html">Station Maps</a>
-      </ul>
-    </div>
-  </nav>
-
   <div class="col-md-12 jumbotron text-center">
     <h1 class="jumbotron-heading">Weather Information Dashboard</h1>
     <p class="lead text-muted">Choose the station and explore its weather records in year 2020</p>
@@ -33,7 +37,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-6">
         <div class="well">
           <h5>Station ID</h5>
           <select id="selDataset"></select>
@@ -46,12 +50,12 @@
           </div>
         </div>
       </div>
-      <div class="col-md-5">`
+      <div class="col-md-6">`
         <div id="gauge"></div>
       </div>  
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-sm-6 col-md-12">
         <div id="lineplot"></div>
       </div>
     </div>  
