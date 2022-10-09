@@ -1,6 +1,6 @@
 # Brazil Weather Web 
 **An online app mainly designed with a dashboard for audience to access weather records of 24 stations in the Northern Brazil in year 2020. 
-The final work is accesible in [Final Work](https://monashbootcamp-project2.herokuapp.com)**
+<br/>The final work is accesible in [Final Work](https://monashbootcamp-project2.herokuapp.com)**
 
 ## Motivation of Project
 This project is created for Monash Data Analytics Bootcamp, with the aim of practicing applying different languages and tools such as Javascript & HTML for creating web visulisations. The main criteria for choosing a topic are worthy of analysis & resources available. 
