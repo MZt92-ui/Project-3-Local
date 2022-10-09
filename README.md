@@ -3,14 +3,14 @@
 <br/>The final work is accessible in [Final Work](https://monashbootcamp-project2.herokuapp.com)**
 
 ## Motivation of Project
-This project is created for Monash Data Analytics Bootcamp, with the aim of practicing applying different languages and tools such as Javascript & HTML for creating web visulisations. The main criteria for choosing a topic are worthy of analysis & resources available. 
+This project is created for Monash Data Analytics Bootcamp, with the aim of practicing applying different languages and tools such as Javascript & HTML for creating web visualisations. The main criteria for choosing a topic are worthy of analysis & resources available. 
 <br/>And this is a replicate of the group work. For the purpose of practising the whole process, I recreated the work with some minor changes. 
 
 ## About Original Data
 The original data is from [Kaggle](https://www.kaggle.com/datasets/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region).
 <br/>It covers hourly data from 623 INMET weather stations of Brazil. The Weather information includes precipitation, temperature, air pressure, wind speed and etc.
 
-## Project Procesures
+## Project Procedures
 **1. Set up Heroku & Github & Project Environment**
 
 **2. ETL Process**
