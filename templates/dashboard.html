@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="index.html">Home Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <a class="nav-link" href="map.html">Station Maps</a>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="col-md-12 jumbotron text-center">
+    <h1 class="jumbotron-heading">Weather Information Dashboard</h1>
+    <p class="lead text-muted">Choose the station and explore its weather records in year 2020</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="well">
+          <h5>Station ID</h5>
+          <select id="selDataset"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h6 class="panel-title">Station INFO</h6>
+          </div>
+          <div id="sample-metadata" class="panel-body">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">`
+        <div id="gauge"></div>
+      </div>  
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="lineplot"></div>
+      </div>
+    </div>  
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename = 'js/app.js') }}"></script>
+  
+</body>
+</html>

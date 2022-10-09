@@ -1,0 +1,30 @@
+
+
+CREATE TABLE north_station (
+    station_id VARCHAR,
+    station_name VARCHAR,
+    state VARCHAR,
+    first_date DATE,
+    height DECIMAL,
+    longitude DECIMAL,
+    latitude DECIMAL,
+    PRIMARY KEY(station_id)
+);
+
+CREATE TABLE north_weather (
+    station_id VARCHAR,
+    total_precipitation DECIMAL,
+    max_temperature DECIMAL,
+    min_temperature DECIMAL, 
+    max_humidity DECIMAL,
+    min_humidity DECIMAL,
+    wind_speed DECIMAL,
+    date DATE,
+    year INT,
+    month INT,
+    hour VARCHAR,
+    record_id INT,
+    PRIMARY KEY(record_id),
+    FOREIGN KEY(station_id)
+        REFERENCES north_station(station_id)
+);
