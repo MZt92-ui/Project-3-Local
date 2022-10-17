@@ -3,7 +3,7 @@
 <br/>The final work is accessible in [Final Work](https://monashbootcamp-project2.herokuapp.com)**
 
 This project is created for Monash Data Analytics Bootcamp study, with the aim of applying different programming languages and tools such as Javascript & HTML for creating web visualisations. The main criteria for choosing a topic are worthy of analysis & resources available. 
-<br/>And this is a replicate of the group work. For the purpose of practising the whole process, I recreated the work with some minor changes. 
+<br/>And this is a replicate of the group work that I participated. For the purpose of practising the whole process, I recreated the work with some minor changes. 
 
 ## Original Dataset
 The original data is from [Kaggle](https://www.kaggle.com/datasets/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region).
