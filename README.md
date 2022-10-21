@@ -2,8 +2,8 @@
 **An online app mainly designed with a dashboard for audience to access weather records of year 2020 for 24 stations in the Northern Brazil. 
 <br/>The final work is accessible in [Final Work](https://monashbootcamp-project2.herokuapp.com)**
 
-This project is created for Monash Data Analytics Bootcamp study, with the aim of applying different programming languages and tools such as Javascript & HTML for creating web visualisations. The main criteria for choosing a topic are worthy of analysis & resources available. 
-<br/>And this is a replicate of the group work that I participated. For the purpose of practising the whole process, I recreated the work with some minor changes. 
+This project is created for Monash Data Analytics Bootcamp study, with the aim of applying different programming languages and tools such as JavaScript & HTML for creating web visualizations. The main criteria for choosing a topic are worthy of analysis & resources available. 
+<br/>And this is a replicate of the group work that I participated. For the purpose of practicing the whole process, I recreated the work with some minor changes. 
 
 ## Original Dataset
 The original data is from [Kaggle](https://www.kaggle.com/datasets/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region).
@@ -26,7 +26,7 @@ The original data is from [Kaggle](https://www.kaggle.com/datasets/PROPPG-PPG/ho
 **3. Create Flask App to Serve Data From Database**
 
 **4. Develop Web Pages**
-<br/>3 pages are designed for this website. Javascript libraries including Leaflet, Plotly and D3 were used to create the visualisations.
+<br/>3 pages are designed for this website. JavaScript libraries including Leaflet, Plotly and D3 were used to create the visualizations.
 <p align="center">
     <img width="450" src="https://github.com/MZt92-ui/Project-3-Local/blob/main/other/web%20structure.JPG">
 </p>
